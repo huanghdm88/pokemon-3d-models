@@ -35,6 +35,10 @@
 
 `assets/garden/species.json` 保留原项目物种、形态、名称、体型、属性和模型 URL 数据。其名称与物理资料来源于 [PokeAPI 的 CSV 数据集](https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv)，包括 `pokemon_species_names.csv`、`pokemon.csv`、`pokemon_types.csv` 和 `pokemon_abilities.csv`。目录包含远程资源索引，不能作为本地模型数量的清单。
 
+## 模型预览截图
+
+[`docs/previews/`](docs/previews/) 中的截图由对应源模型渲染，文件映射见 [`docs/preview-catalog.json`](docs/preview-catalog.json)。预览截图沿用相应模型的作者署名和许可条件，包括适用的 NC 非商业及 SA 相同方式共享要求；根目录的 MIT 许可不替换这些条件。模型作者与原始来源仍以 [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) 和 [`models-manifest.json`](models-manifest.json) 的文件级记录为准。
+
 ## 随附软件
 
 | 组件 | 文件 | 许可 |

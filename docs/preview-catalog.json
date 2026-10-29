@@ -1,0 +1,2742 @@
+[
+  {
+    "key": "1-regular",
+    "speciesId": 1,
+    "form": "regular",
+    "nameZh": "妙蛙种子",
+    "nameEn": "Bulbasaur",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/1.glb",
+    "imagePath": "docs/previews/1-regular.jpg"
+  },
+  {
+    "key": "4-regular",
+    "speciesId": 4,
+    "form": "regular",
+    "nameZh": "小火龙",
+    "nameEn": "Charmander",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/4.glb",
+    "imagePath": "docs/previews/4-regular.jpg"
+  },
+  {
+    "key": "6-regular",
+    "speciesId": 6,
+    "form": "regular",
+    "nameZh": "喷火龙",
+    "nameEn": "Charizard",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/6.glb",
+    "imagePath": "docs/previews/6-regular.jpg"
+  },
+  {
+    "key": "6-mega-x",
+    "speciesId": 6,
+    "form": "mega-x",
+    "nameZh": "超级喷火龙 X",
+    "nameEn": "Mega Charizard X",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/6-mega-x.glb",
+    "imagePath": "docs/previews/6-mega-x.jpg"
+  },
+  {
+    "key": "6-mega-y",
+    "speciesId": 6,
+    "form": "mega-y",
+    "nameZh": "超级喷火龙 Y",
+    "nameEn": "Mega Charizard Y",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/6-mega-y.glb",
+    "imagePath": "docs/previews/6-mega-y.jpg"
+  },
+  {
+    "key": "6-gmax",
+    "speciesId": 6,
+    "form": "gmax",
+    "nameZh": "喷火龙（超极巨化）",
+    "nameEn": "Gigantamax Charizard",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/6-gmax.glb",
+    "imagePath": "docs/previews/6-gmax.jpg"
+  },
+  {
+    "key": "7-regular",
+    "speciesId": 7,
+    "form": "regular",
+    "nameZh": "杰尼龟",
+    "nameEn": "Squirtle",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/7.glb",
+    "imagePath": "docs/previews/7-regular.jpg"
+  },
+  {
+    "key": "12-regular",
+    "speciesId": 12,
+    "form": "regular",
+    "nameZh": "巴大蝶",
+    "nameEn": "Butterfree",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/12-regular.glb",
+    "imagePath": "docs/previews/12-regular.jpg"
+  },
+  {
+    "key": "12-gmax",
+    "speciesId": 12,
+    "form": "gmax",
+    "nameZh": "巴大蝶（超极巨化）",
+    "nameEn": "Gigantamax Butterfree",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/12-gmax.glb",
+    "imagePath": "docs/previews/12-gmax.jpg"
+  },
+  {
+    "key": "15-regular",
+    "speciesId": 15,
+    "form": "regular",
+    "nameZh": "大针蜂",
+    "nameEn": "Beedrill",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/15-regular.glb",
+    "imagePath": "docs/previews/15-regular.jpg"
+  },
+  {
+    "key": "15-mega",
+    "speciesId": 15,
+    "form": "mega",
+    "nameZh": "超级大针蜂",
+    "nameEn": "Mega Beedrill",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/15-mega.glb",
+    "imagePath": "docs/previews/15-mega.jpg"
+  },
+  {
+    "key": "16-regular",
+    "speciesId": 16,
+    "form": "regular",
+    "nameZh": "波波",
+    "nameEn": "Pidgey",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/16-regular.glb",
+    "imagePath": "docs/previews/16-regular.jpg"
+  },
+  {
+    "key": "17-regular",
+    "speciesId": 17,
+    "form": "regular",
+    "nameZh": "比比鸟",
+    "nameEn": "Pidgeotto",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/17-regular.glb",
+    "imagePath": "docs/previews/17-regular.jpg"
+  },
+  {
+    "key": "18-regular",
+    "speciesId": 18,
+    "form": "regular",
+    "nameZh": "大比鸟",
+    "nameEn": "Pidgeot",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/18-regular.glb",
+    "imagePath": "docs/previews/18-regular.jpg"
+  },
+  {
+    "key": "18-mega",
+    "speciesId": 18,
+    "form": "mega",
+    "nameZh": "超级大比鸟",
+    "nameEn": "Mega Pidgeot",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/18-mega.glb",
+    "imagePath": "docs/previews/18-mega.jpg"
+  },
+  {
+    "key": "21-regular",
+    "speciesId": 21,
+    "form": "regular",
+    "nameZh": "烈雀",
+    "nameEn": "Spearow",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/21-regular.glb",
+    "imagePath": "docs/previews/21-regular.jpg"
+  },
+  {
+    "key": "22-regular",
+    "speciesId": 22,
+    "form": "regular",
+    "nameZh": "大嘴雀",
+    "nameEn": "Fearow",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/22-regular.glb",
+    "imagePath": "docs/previews/22-regular.jpg"
+  },
+  {
+    "key": "25-regular",
+    "speciesId": 25,
+    "form": "regular",
+    "nameZh": "皮卡丘",
+    "nameEn": "Pikachu",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/25.glb",
+    "imagePath": "docs/previews/25-regular.jpg"
+  },
+  {
+    "key": "41-regular",
+    "speciesId": 41,
+    "form": "regular",
+    "nameZh": "超音蝠",
+    "nameEn": "Zubat",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/41-regular.glb",
+    "imagePath": "docs/previews/41-regular.jpg"
+  },
+  {
+    "key": "42-regular",
+    "speciesId": 42,
+    "form": "regular",
+    "nameZh": "大嘴蝠",
+    "nameEn": "Golbat",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/42-regular.glb",
+    "imagePath": "docs/previews/42-regular.jpg"
+  },
+  {
+    "key": "49-regular",
+    "speciesId": 49,
+    "form": "regular",
+    "nameZh": "摩鲁蛾",
+    "nameEn": "Venomoth",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/49-regular.glb",
+    "imagePath": "docs/previews/49-regular.jpg"
+  },
+  {
+    "key": "54-regular",
+    "speciesId": 54,
+    "form": "regular",
+    "nameZh": "可达鸭",
+    "nameEn": "Psyduck",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/54.glb",
+    "imagePath": "docs/previews/54-regular.jpg"
+  },
+  {
+    "key": "81-regular",
+    "speciesId": 81,
+    "form": "regular",
+    "nameZh": "小磁怪",
+    "nameEn": "Magnemite",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/81-regular.glb",
+    "imagePath": "docs/previews/81-regular.jpg"
+  },
+  {
+    "key": "82-regular",
+    "speciesId": 82,
+    "form": "regular",
+    "nameZh": "三合一磁怪",
+    "nameEn": "Magneton",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/82-regular.glb",
+    "imagePath": "docs/previews/82-regular.jpg"
+  },
+  {
+    "key": "83-regular",
+    "speciesId": 83,
+    "form": "regular",
+    "nameZh": "大葱鸭",
+    "nameEn": "Farfetch’d",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/83-regular.glb",
+    "imagePath": "docs/previews/83-regular.jpg"
+  },
+  {
+    "key": "84-regular",
+    "speciesId": 84,
+    "form": "regular",
+    "nameZh": "嘟嘟",
+    "nameEn": "Doduo",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/84-regular.glb",
+    "imagePath": "docs/previews/84-regular.jpg"
+  },
+  {
+    "key": "85-regular",
+    "speciesId": 85,
+    "form": "regular",
+    "nameZh": "嘟嘟利",
+    "nameEn": "Dodrio",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/85-regular.glb",
+    "imagePath": "docs/previews/85-regular.jpg"
+  },
+  {
+    "key": "92-regular",
+    "speciesId": 92,
+    "form": "regular",
+    "nameZh": "鬼斯",
+    "nameEn": "Gastly",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/92-regular.glb",
+    "imagePath": "docs/previews/92-regular.jpg"
+  },
+  {
+    "key": "93-regular",
+    "speciesId": 93,
+    "form": "regular",
+    "nameZh": "鬼斯通",
+    "nameEn": "Haunter",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/93-regular.glb",
+    "imagePath": "docs/previews/93-regular.jpg"
+  },
+  {
+    "key": "94-regular",
+    "speciesId": 94,
+    "form": "regular",
+    "nameZh": "耿鬼",
+    "nameEn": "Gengar",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/94.glb",
+    "imagePath": "docs/previews/94-regular.jpg"
+  },
+  {
+    "key": "94-mega",
+    "speciesId": 94,
+    "form": "mega",
+    "nameZh": "超级耿鬼",
+    "nameEn": "Mega Gengar",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/94-mega.glb",
+    "imagePath": "docs/previews/94-mega.jpg"
+  },
+  {
+    "key": "109-regular",
+    "speciesId": 109,
+    "form": "regular",
+    "nameZh": "瓦斯弹",
+    "nameEn": "Koffing",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/109-regular.glb",
+    "imagePath": "docs/previews/109-regular.jpg"
+  },
+  {
+    "key": "109-galar",
+    "speciesId": 109,
+    "form": "galar",
+    "nameZh": "瓦斯弹（伽勒尔风格同人）",
+    "nameEn": "Galarian Koffing (fan art)",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/109-galar.glb",
+    "imagePath": "docs/previews/109-galar.jpg"
+  },
+  {
+    "key": "110-regular",
+    "speciesId": 110,
+    "form": "regular",
+    "nameZh": "双弹瓦斯",
+    "nameEn": "Weezing",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/110-regular.glb",
+    "imagePath": "docs/previews/110-regular.jpg"
+  },
+  {
+    "key": "123-regular",
+    "speciesId": 123,
+    "form": "regular",
+    "nameZh": "飞天螳螂",
+    "nameEn": "Scyther",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/123-regular.glb",
+    "imagePath": "docs/previews/123-regular.jpg"
+  },
+  {
+    "key": "127-mega",
+    "speciesId": 127,
+    "form": "mega",
+    "nameZh": "超级凯罗斯",
+    "nameEn": "Mega Pinsir",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/127-mega.glb",
+    "imagePath": "docs/previews/127-mega.jpg"
+  },
+  {
+    "key": "129-regular",
+    "speciesId": 129,
+    "form": "regular",
+    "nameZh": "鲤鱼王",
+    "nameEn": "Magikarp",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/129.glb",
+    "imagePath": "docs/previews/129-regular.jpg"
+  },
+  {
+    "key": "130-regular",
+    "speciesId": 130,
+    "form": "regular",
+    "nameZh": "暴鲤龙",
+    "nameEn": "Gyarados",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/130.glb",
+    "imagePath": "docs/previews/130-regular.jpg"
+  },
+  {
+    "key": "130-mega",
+    "speciesId": 130,
+    "form": "mega",
+    "nameZh": "超级暴鲤龙",
+    "nameEn": "Mega Gyarados",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/130-mega.glb",
+    "imagePath": "docs/previews/130-mega.jpg"
+  },
+  {
+    "key": "133-regular",
+    "speciesId": 133,
+    "form": "regular",
+    "nameZh": "伊布",
+    "nameEn": "Eevee",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/133.glb",
+    "imagePath": "docs/previews/133-regular.jpg"
+  },
+  {
+    "key": "137-regular",
+    "speciesId": 137,
+    "form": "regular",
+    "nameZh": "多边兽",
+    "nameEn": "Porygon",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/137-regular.glb",
+    "imagePath": "docs/previews/137-regular.jpg"
+  },
+  {
+    "key": "142-regular",
+    "speciesId": 142,
+    "form": "regular",
+    "nameZh": "化石翼龙",
+    "nameEn": "Aerodactyl",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/142-regular.glb",
+    "imagePath": "docs/previews/142-regular.jpg"
+  },
+  {
+    "key": "142-mega",
+    "speciesId": 142,
+    "form": "mega",
+    "nameZh": "超级化石翼龙",
+    "nameEn": "Mega Aerodactyl",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/142-mega.glb",
+    "imagePath": "docs/previews/142-mega.jpg"
+  },
+  {
+    "key": "144-regular",
+    "speciesId": 144,
+    "form": "regular",
+    "nameZh": "急冻鸟",
+    "nameEn": "Articuno",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/144.glb",
+    "imagePath": "docs/previews/144-regular.jpg"
+  },
+  {
+    "key": "144-galar",
+    "speciesId": 144,
+    "form": "galar",
+    "nameZh": "急冻鸟（伽勒尔的样子）",
+    "nameEn": "Galarian Articuno",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/144-galar.glb",
+    "imagePath": "docs/previews/144-galar.jpg"
+  },
+  {
+    "key": "145-regular",
+    "speciesId": 145,
+    "form": "regular",
+    "nameZh": "闪电鸟",
+    "nameEn": "Zapdos",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/145-regular.glb",
+    "imagePath": "docs/previews/145-regular.jpg"
+  },
+  {
+    "key": "145-galar",
+    "speciesId": 145,
+    "form": "galar",
+    "nameZh": "闪电鸟（伽勒尔的样子）",
+    "nameEn": "Galarian Zapdos",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/145-galar.glb",
+    "imagePath": "docs/previews/145-galar.jpg"
+  },
+  {
+    "key": "146-regular",
+    "speciesId": 146,
+    "form": "regular",
+    "nameZh": "火焰鸟",
+    "nameEn": "Moltres",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/146-regular.glb",
+    "imagePath": "docs/previews/146-regular.jpg"
+  },
+  {
+    "key": "146-galar",
+    "speciesId": 146,
+    "form": "galar",
+    "nameZh": "火焰鸟（伽勒尔的样子）",
+    "nameEn": "Galarian Moltres",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/146-galar.glb",
+    "imagePath": "docs/previews/146-galar.jpg"
+  },
+  {
+    "key": "149-regular",
+    "speciesId": 149,
+    "form": "regular",
+    "nameZh": "快龙",
+    "nameEn": "Dragonite",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/149-regular.glb",
+    "imagePath": "docs/previews/149-regular.jpg"
+  },
+  {
+    "key": "150-regular",
+    "speciesId": 150,
+    "form": "regular",
+    "nameZh": "超梦",
+    "nameEn": "Mewtwo",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/150-regular.glb",
+    "imagePath": "docs/previews/150-regular.jpg"
+  },
+  {
+    "key": "150-mega-x",
+    "speciesId": 150,
+    "form": "mega-x",
+    "nameZh": "超级超梦 X",
+    "nameEn": "Mega Mewtwo X",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/150-mega-x.glb",
+    "imagePath": "docs/previews/150-mega-x.jpg"
+  },
+  {
+    "key": "150-mega-y",
+    "speciesId": 150,
+    "form": "mega-y",
+    "nameZh": "超级超梦 Y",
+    "nameEn": "Mega Mewtwo Y",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/150-mega-y.glb",
+    "imagePath": "docs/previews/150-mega-y.jpg"
+  },
+  {
+    "key": "151-regular",
+    "speciesId": 151,
+    "form": "regular",
+    "nameZh": "梦幻",
+    "nameEn": "Mew",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/151.glb",
+    "imagePath": "docs/previews/151-regular.jpg"
+  },
+  {
+    "key": "152-regular",
+    "speciesId": 152,
+    "form": "regular",
+    "nameZh": "菊草叶",
+    "nameEn": "Chikorita",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/152.glb",
+    "imagePath": "docs/previews/152-regular.jpg"
+  },
+  {
+    "key": "155-regular",
+    "speciesId": 155,
+    "form": "regular",
+    "nameZh": "火球鼠",
+    "nameEn": "Cyndaquil",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/155.glb",
+    "imagePath": "docs/previews/155-regular.jpg"
+  },
+  {
+    "key": "158-regular",
+    "speciesId": 158,
+    "form": "regular",
+    "nameZh": "小锯鳄",
+    "nameEn": "Totodile",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/158.glb",
+    "imagePath": "docs/previews/158-regular.jpg"
+  },
+  {
+    "key": "163-regular",
+    "speciesId": 163,
+    "form": "regular",
+    "nameZh": "咕咕",
+    "nameEn": "Hoothoot",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/163-regular.glb",
+    "imagePath": "docs/previews/163-regular.jpg"
+  },
+  {
+    "key": "164-regular",
+    "speciesId": 164,
+    "form": "regular",
+    "nameZh": "猫头夜鹰",
+    "nameEn": "Noctowl",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/164-regular.glb",
+    "imagePath": "docs/previews/164-regular.jpg"
+  },
+  {
+    "key": "165-regular",
+    "speciesId": 165,
+    "form": "regular",
+    "nameZh": "芭瓢虫",
+    "nameEn": "Ledyba",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/165-regular.glb",
+    "imagePath": "docs/previews/165-regular.jpg"
+  },
+  {
+    "key": "166-regular",
+    "speciesId": 166,
+    "form": "regular",
+    "nameZh": "安瓢虫",
+    "nameEn": "Ledian",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/166-regular.glb",
+    "imagePath": "docs/previews/166-regular.jpg"
+  },
+  {
+    "key": "169-regular",
+    "speciesId": 169,
+    "form": "regular",
+    "nameZh": "叉字蝠",
+    "nameEn": "Crobat",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/169-regular.glb",
+    "imagePath": "docs/previews/169-regular.jpg"
+  },
+  {
+    "key": "176-regular",
+    "speciesId": 176,
+    "form": "regular",
+    "nameZh": "波克基古",
+    "nameEn": "Togetic",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/176-regular.glb",
+    "imagePath": "docs/previews/176-regular.jpg"
+  },
+  {
+    "key": "177-regular",
+    "speciesId": 177,
+    "form": "regular",
+    "nameZh": "天然雀",
+    "nameEn": "Natu",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/177-regular.glb",
+    "imagePath": "docs/previews/177-regular.jpg"
+  },
+  {
+    "key": "178-regular",
+    "speciesId": 178,
+    "form": "regular",
+    "nameZh": "天然鸟",
+    "nameEn": "Xatu",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/178-regular.glb",
+    "imagePath": "docs/previews/178-regular.jpg"
+  },
+  {
+    "key": "183-regular",
+    "speciesId": 183,
+    "form": "regular",
+    "nameZh": "玛力露",
+    "nameEn": "Marill",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/183.glb",
+    "imagePath": "docs/previews/183-regular.jpg"
+  },
+  {
+    "key": "184-regular",
+    "speciesId": 184,
+    "form": "regular",
+    "nameZh": "玛力露丽",
+    "nameEn": "Azumarill",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/184.glb",
+    "imagePath": "docs/previews/184-regular.jpg"
+  },
+  {
+    "key": "187-regular",
+    "speciesId": 187,
+    "form": "regular",
+    "nameZh": "毽子草",
+    "nameEn": "Hoppip",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/187-regular.glb",
+    "imagePath": "docs/previews/187-regular.jpg"
+  },
+  {
+    "key": "188-regular",
+    "speciesId": 188,
+    "form": "regular",
+    "nameZh": "毽子花",
+    "nameEn": "Skiploom",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/188-regular.glb",
+    "imagePath": "docs/previews/188-regular.jpg"
+  },
+  {
+    "key": "189-regular",
+    "speciesId": 189,
+    "form": "regular",
+    "nameZh": "毽子棉",
+    "nameEn": "Jumpluff",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/189-regular.glb",
+    "imagePath": "docs/previews/189-regular.jpg"
+  },
+  {
+    "key": "193-regular",
+    "speciesId": 193,
+    "form": "regular",
+    "nameZh": "蜻蜻蜓",
+    "nameEn": "Yanma",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/193-regular.glb",
+    "imagePath": "docs/previews/193-regular.jpg"
+  },
+  {
+    "key": "198-regular",
+    "speciesId": 198,
+    "form": "regular",
+    "nameZh": "黑暗鸦",
+    "nameEn": "Murkrow",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/198-regular.glb",
+    "imagePath": "docs/previews/198-regular.jpg"
+  },
+  {
+    "key": "200-regular",
+    "speciesId": 200,
+    "form": "regular",
+    "nameZh": "梦妖",
+    "nameEn": "Misdreavus",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/200-regular.glb",
+    "imagePath": "docs/previews/200-regular.jpg"
+  },
+  {
+    "key": "201-regular",
+    "speciesId": 201,
+    "form": "regular",
+    "nameZh": "未知图腾",
+    "nameEn": "Unown",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/201-regular.glb",
+    "imagePath": "docs/previews/201-regular.jpg"
+  },
+  {
+    "key": "207-regular",
+    "speciesId": 207,
+    "form": "regular",
+    "nameZh": "天蝎",
+    "nameEn": "Gligar",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/207-regular.glb",
+    "imagePath": "docs/previews/207-regular.jpg"
+  },
+  {
+    "key": "212-regular",
+    "speciesId": 212,
+    "form": "regular",
+    "nameZh": "巨钳螳螂",
+    "nameEn": "Scizor",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/212-regular.glb",
+    "imagePath": "docs/previews/212-regular.jpg"
+  },
+  {
+    "key": "212-mega",
+    "speciesId": 212,
+    "form": "mega",
+    "nameZh": "超级巨钳螳螂",
+    "nameEn": "Mega Scizor",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/212-mega.glb",
+    "imagePath": "docs/previews/212-mega.jpg"
+  },
+  {
+    "key": "225-regular",
+    "speciesId": 225,
+    "form": "regular",
+    "nameZh": "信使鸟",
+    "nameEn": "Delibird",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/225-regular.glb",
+    "imagePath": "docs/previews/225-regular.jpg"
+  },
+  {
+    "key": "227-regular",
+    "speciesId": 227,
+    "form": "regular",
+    "nameZh": "盔甲鸟",
+    "nameEn": "Skarmory",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/227-regular.glb",
+    "imagePath": "docs/previews/227-regular.jpg"
+  },
+  {
+    "key": "227-mega",
+    "speciesId": 227,
+    "form": "mega",
+    "nameZh": "超级盔甲鸟",
+    "nameEn": "Mega Skarmory",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/227-mega.glb",
+    "imagePath": "docs/previews/227-mega.jpg"
+  },
+  {
+    "key": "233-regular",
+    "speciesId": 233,
+    "form": "regular",
+    "nameZh": "多边兽２型",
+    "nameEn": "Porygon2",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/233-regular.glb",
+    "imagePath": "docs/previews/233-regular.jpg"
+  },
+  {
+    "key": "249-regular",
+    "speciesId": 249,
+    "form": "regular",
+    "nameZh": "洛奇亚",
+    "nameEn": "Lugia",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/249.glb",
+    "imagePath": "docs/previews/249-regular.jpg"
+  },
+  {
+    "key": "250-regular",
+    "speciesId": 250,
+    "form": "regular",
+    "nameZh": "凤王",
+    "nameEn": "Ho-Oh",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/250-regular.glb",
+    "imagePath": "docs/previews/250-regular.jpg"
+  },
+  {
+    "key": "251-regular",
+    "speciesId": 251,
+    "form": "regular",
+    "nameZh": "时拉比",
+    "nameEn": "Celebi",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/251-regular.glb",
+    "imagePath": "docs/previews/251-regular.jpg"
+  },
+  {
+    "key": "252-regular",
+    "speciesId": 252,
+    "form": "regular",
+    "nameZh": "木守宫",
+    "nameEn": "Treecko",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/252.glb",
+    "imagePath": "docs/previews/252-regular.jpg"
+  },
+  {
+    "key": "255-regular",
+    "speciesId": 255,
+    "form": "regular",
+    "nameZh": "火稚鸡",
+    "nameEn": "Torchic",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/255.glb",
+    "imagePath": "docs/previews/255-regular.jpg"
+  },
+  {
+    "key": "258-regular",
+    "speciesId": 258,
+    "form": "regular",
+    "nameZh": "水跃鱼",
+    "nameEn": "Mudkip",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/258.glb",
+    "imagePath": "docs/previews/258-regular.jpg"
+  },
+  {
+    "key": "267-regular",
+    "speciesId": 267,
+    "form": "regular",
+    "nameZh": "狩猎凤蝶",
+    "nameEn": "Beautifly",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/267-regular.glb",
+    "imagePath": "docs/previews/267-regular.jpg"
+  },
+  {
+    "key": "268-regular",
+    "speciesId": 268,
+    "form": "regular",
+    "nameZh": "盾甲茧",
+    "nameEn": "Cascoon",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/268-regular.glb",
+    "imagePath": "docs/previews/268-regular.jpg"
+  },
+  {
+    "key": "269-regular",
+    "speciesId": 269,
+    "form": "regular",
+    "nameZh": "毒粉蛾",
+    "nameEn": "Dustox",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/269-regular.glb",
+    "imagePath": "docs/previews/269-regular.jpg"
+  },
+  {
+    "key": "276-regular",
+    "speciesId": 276,
+    "form": "regular",
+    "nameZh": "傲骨燕",
+    "nameEn": "Taillow",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/276-regular.glb",
+    "imagePath": "docs/previews/276-regular.jpg"
+  },
+  {
+    "key": "277-regular",
+    "speciesId": 277,
+    "form": "regular",
+    "nameZh": "大王燕",
+    "nameEn": "Swellow",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/277-regular.glb",
+    "imagePath": "docs/previews/277-regular.jpg"
+  },
+  {
+    "key": "278-regular",
+    "speciesId": 278,
+    "form": "regular",
+    "nameZh": "长翅鸥",
+    "nameEn": "Wingull",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/278-regular.glb",
+    "imagePath": "docs/previews/278-regular.jpg"
+  },
+  {
+    "key": "279-regular",
+    "speciesId": 279,
+    "form": "regular",
+    "nameZh": "大嘴鸥",
+    "nameEn": "Pelipper",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/279-regular.glb",
+    "imagePath": "docs/previews/279-regular.jpg"
+  },
+  {
+    "key": "280-regular",
+    "speciesId": 280,
+    "form": "regular",
+    "nameZh": "拉鲁拉丝",
+    "nameEn": "Ralts",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/280.glb",
+    "imagePath": "docs/previews/280-regular.jpg"
+  },
+  {
+    "key": "284-regular",
+    "speciesId": 284,
+    "form": "regular",
+    "nameZh": "雨翅蛾",
+    "nameEn": "Masquerain",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/284-regular.glb",
+    "imagePath": "docs/previews/284-regular.jpg"
+  },
+  {
+    "key": "291-regular",
+    "speciesId": 291,
+    "form": "regular",
+    "nameZh": "铁面忍者",
+    "nameEn": "Ninjask",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/291-regular.glb",
+    "imagePath": "docs/previews/291-regular.jpg"
+  },
+  {
+    "key": "292-regular",
+    "speciesId": 292,
+    "form": "regular",
+    "nameZh": "脱壳忍者",
+    "nameEn": "Shedinja",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/292-regular.glb",
+    "imagePath": "docs/previews/292-regular.jpg"
+  },
+  {
+    "key": "313-regular",
+    "speciesId": 313,
+    "form": "regular",
+    "nameZh": "电萤虫",
+    "nameEn": "Volbeat",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/313-regular.glb",
+    "imagePath": "docs/previews/313-regular.jpg"
+  },
+  {
+    "key": "314-regular",
+    "speciesId": 314,
+    "form": "regular",
+    "nameZh": "甜甜萤",
+    "nameEn": "Illumise",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/314-regular.glb",
+    "imagePath": "docs/previews/314-regular.jpg"
+  },
+  {
+    "key": "329-regular",
+    "speciesId": 329,
+    "form": "regular",
+    "nameZh": "超音波幼虫",
+    "nameEn": "Vibrava",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/329-regular.glb",
+    "imagePath": "docs/previews/329-regular.jpg"
+  },
+  {
+    "key": "330-regular",
+    "speciesId": 330,
+    "form": "regular",
+    "nameZh": "沙漠蜻蜓",
+    "nameEn": "Flygon",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/330-regular.glb",
+    "imagePath": "docs/previews/330-regular.jpg"
+  },
+  {
+    "key": "333-regular",
+    "speciesId": 333,
+    "form": "regular",
+    "nameZh": "青绵鸟",
+    "nameEn": "Swablu",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/333-regular.glb",
+    "imagePath": "docs/previews/333-regular.jpg"
+  },
+  {
+    "key": "334-regular",
+    "speciesId": 334,
+    "form": "regular",
+    "nameZh": "七夕青鸟",
+    "nameEn": "Altaria",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/334-regular.glb",
+    "imagePath": "docs/previews/334-regular.jpg"
+  },
+  {
+    "key": "337-regular",
+    "speciesId": 337,
+    "form": "regular",
+    "nameZh": "月石",
+    "nameEn": "Lunatone",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/337-regular.glb",
+    "imagePath": "docs/previews/337-regular.jpg"
+  },
+  {
+    "key": "338-regular",
+    "speciesId": 338,
+    "form": "regular",
+    "nameZh": "太阳岩",
+    "nameEn": "Solrock",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/338-regular.glb",
+    "imagePath": "docs/previews/338-regular.jpg"
+  },
+  {
+    "key": "343-regular",
+    "speciesId": 343,
+    "form": "regular",
+    "nameZh": "天秤偶",
+    "nameEn": "Baltoy",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/343-regular.glb",
+    "imagePath": "docs/previews/343-regular.jpg"
+  },
+  {
+    "key": "344-regular",
+    "speciesId": 344,
+    "form": "regular",
+    "nameZh": "念力土偶",
+    "nameEn": "Claydol",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/344-regular.glb",
+    "imagePath": "docs/previews/344-regular.jpg"
+  },
+  {
+    "key": "355-regular",
+    "speciesId": 355,
+    "form": "regular",
+    "nameZh": "夜巡灵",
+    "nameEn": "Duskull",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/355-regular.glb",
+    "imagePath": "docs/previews/355-regular.jpg"
+  },
+  {
+    "key": "356-regular",
+    "speciesId": 356,
+    "form": "regular",
+    "nameZh": "彷徨夜灵",
+    "nameEn": "Dusclops",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/356-regular.glb",
+    "imagePath": "docs/previews/356-regular.jpg"
+  },
+  {
+    "key": "357-regular",
+    "speciesId": 357,
+    "form": "regular",
+    "nameZh": "热带龙",
+    "nameEn": "Tropius",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/357-regular.glb",
+    "imagePath": "docs/previews/357-regular.jpg"
+  },
+  {
+    "key": "358-regular",
+    "speciesId": 358,
+    "form": "regular",
+    "nameZh": "风铃铃",
+    "nameEn": "Chimecho",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/358-regular.glb",
+    "imagePath": "docs/previews/358-regular.jpg"
+  },
+  {
+    "key": "373-regular",
+    "speciesId": 373,
+    "form": "regular",
+    "nameZh": "暴飞龙",
+    "nameEn": "Salamence",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/373-regular.glb",
+    "imagePath": "docs/previews/373-regular.jpg"
+  },
+  {
+    "key": "373-mega",
+    "speciesId": 373,
+    "form": "mega",
+    "nameZh": "超级暴飞龙",
+    "nameEn": "Mega Salamence",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/373-mega.glb",
+    "imagePath": "docs/previews/373-mega.jpg"
+  },
+  {
+    "key": "374-regular",
+    "speciesId": 374,
+    "form": "regular",
+    "nameZh": "铁哑铃",
+    "nameEn": "Beldum",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/374-regular.glb",
+    "imagePath": "docs/previews/374-regular.jpg"
+  },
+  {
+    "key": "375-regular",
+    "speciesId": 375,
+    "form": "regular",
+    "nameZh": "金属怪",
+    "nameEn": "Metang",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/375-regular.glb",
+    "imagePath": "docs/previews/375-regular.jpg"
+  },
+  {
+    "key": "376-regular",
+    "speciesId": 376,
+    "form": "regular",
+    "nameZh": "巨金怪",
+    "nameEn": "Metagross",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/376-regular.glb",
+    "imagePath": "docs/previews/376-regular.jpg"
+  },
+  {
+    "key": "376-mega",
+    "speciesId": 376,
+    "form": "mega",
+    "nameZh": "超级巨金怪",
+    "nameEn": "Mega Metagross",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/376-mega.glb",
+    "imagePath": "docs/previews/376-mega.jpg"
+  },
+  {
+    "key": "380-regular",
+    "speciesId": 380,
+    "form": "regular",
+    "nameZh": "拉帝亚斯",
+    "nameEn": "Latias",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/380-regular.glb",
+    "imagePath": "docs/previews/380-regular.jpg"
+  },
+  {
+    "key": "380-mega",
+    "speciesId": 380,
+    "form": "mega",
+    "nameZh": "超级拉帝亚斯",
+    "nameEn": "Mega Latias",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/380-mega.glb",
+    "imagePath": "docs/previews/380-mega.jpg"
+  },
+  {
+    "key": "381-regular",
+    "speciesId": 381,
+    "form": "regular",
+    "nameZh": "拉帝欧斯",
+    "nameEn": "Latios",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/381-regular.glb",
+    "imagePath": "docs/previews/381-regular.jpg"
+  },
+  {
+    "key": "381-mega",
+    "speciesId": 381,
+    "form": "mega",
+    "nameZh": "超级拉帝欧斯",
+    "nameEn": "Mega Latios",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/381-mega.glb",
+    "imagePath": "docs/previews/381-mega.jpg"
+  },
+  {
+    "key": "383-regular",
+    "speciesId": 383,
+    "form": "regular",
+    "nameZh": "固拉多",
+    "nameEn": "Groudon",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/383.glb",
+    "imagePath": "docs/previews/383-regular.jpg"
+  },
+  {
+    "key": "384-regular",
+    "speciesId": 384,
+    "form": "regular",
+    "nameZh": "烈空坐",
+    "nameEn": "Rayquaza",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/384.glb",
+    "imagePath": "docs/previews/384-regular.jpg"
+  },
+  {
+    "key": "384-mega",
+    "speciesId": 384,
+    "form": "mega",
+    "nameZh": "超级烈空坐",
+    "nameEn": "Mega Rayquaza",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/384-mega.glb",
+    "imagePath": "docs/previews/384-mega.jpg"
+  },
+  {
+    "key": "385-regular",
+    "speciesId": 385,
+    "form": "regular",
+    "nameZh": "基拉祈",
+    "nameEn": "Jirachi",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/385-regular.glb",
+    "imagePath": "docs/previews/385-regular.jpg"
+  },
+  {
+    "key": "386-regular",
+    "speciesId": 386,
+    "form": "regular",
+    "nameZh": "代欧奇希斯",
+    "nameEn": "Deoxys",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/386-regular.glb",
+    "imagePath": "docs/previews/386-regular.jpg"
+  },
+  {
+    "key": "396-regular",
+    "speciesId": 396,
+    "form": "regular",
+    "nameZh": "姆克儿",
+    "nameEn": "Starly",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/396-regular.glb",
+    "imagePath": "docs/previews/396-regular.jpg"
+  },
+  {
+    "key": "397-regular",
+    "speciesId": 397,
+    "form": "regular",
+    "nameZh": "姆克鸟",
+    "nameEn": "Staravia",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/397-regular.glb",
+    "imagePath": "docs/previews/397-regular.jpg"
+  },
+  {
+    "key": "398-regular",
+    "speciesId": 398,
+    "form": "regular",
+    "nameZh": "姆克鹰",
+    "nameEn": "Staraptor",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/398-regular.glb",
+    "imagePath": "docs/previews/398-regular.jpg"
+  },
+  {
+    "key": "414-regular",
+    "speciesId": 414,
+    "form": "regular",
+    "nameZh": "绅士蛾",
+    "nameEn": "Mothim",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/414-regular.glb",
+    "imagePath": "docs/previews/414-regular.jpg"
+  },
+  {
+    "key": "415-regular",
+    "speciesId": 415,
+    "form": "regular",
+    "nameZh": "三蜜蜂",
+    "nameEn": "Combee",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/415-regular.glb",
+    "imagePath": "docs/previews/415-regular.jpg"
+  },
+  {
+    "key": "416-regular",
+    "speciesId": 416,
+    "form": "regular",
+    "nameZh": "蜂女王",
+    "nameEn": "Vespiquen",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/416-regular.glb",
+    "imagePath": "docs/previews/416-regular.jpg"
+  },
+  {
+    "key": "425-regular",
+    "speciesId": 425,
+    "form": "regular",
+    "nameZh": "飘飘球",
+    "nameEn": "Drifloon",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/425-regular.glb",
+    "imagePath": "docs/previews/425-regular.jpg"
+  },
+  {
+    "key": "426-regular",
+    "speciesId": 426,
+    "form": "regular",
+    "nameZh": "随风球",
+    "nameEn": "Drifblim",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/426-regular.glb",
+    "imagePath": "docs/previews/426-regular.jpg"
+  },
+  {
+    "key": "429-regular",
+    "speciesId": 429,
+    "form": "regular",
+    "nameZh": "梦妖魔",
+    "nameEn": "Mismagius",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/429-regular.glb",
+    "imagePath": "docs/previews/429-regular.jpg"
+  },
+  {
+    "key": "430-regular",
+    "speciesId": 430,
+    "form": "regular",
+    "nameZh": "乌鸦头头",
+    "nameEn": "Honchkrow",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/430-regular.glb",
+    "imagePath": "docs/previews/430-regular.jpg"
+  },
+  {
+    "key": "433-regular",
+    "speciesId": 433,
+    "form": "regular",
+    "nameZh": "铃铛响",
+    "nameEn": "Chingling",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/433-regular.glb",
+    "imagePath": "docs/previews/433-regular.jpg"
+  },
+  {
+    "key": "436-regular",
+    "speciesId": 436,
+    "form": "regular",
+    "nameZh": "铜镜怪",
+    "nameEn": "Bronzor",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/436-regular.glb",
+    "imagePath": "docs/previews/436-regular.jpg"
+  },
+  {
+    "key": "437-regular",
+    "speciesId": 437,
+    "form": "regular",
+    "nameZh": "青铜钟",
+    "nameEn": "Bronzong",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/437-regular.glb",
+    "imagePath": "docs/previews/437-regular.jpg"
+  },
+  {
+    "key": "441-regular",
+    "speciesId": 441,
+    "form": "regular",
+    "nameZh": "聒噪鸟",
+    "nameEn": "Chatot",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/441-regular.glb",
+    "imagePath": "docs/previews/441-regular.jpg"
+  },
+  {
+    "key": "447-regular",
+    "speciesId": 447,
+    "form": "regular",
+    "nameZh": "利欧路",
+    "nameEn": "Riolu",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/447.glb",
+    "imagePath": "docs/previews/447-regular.jpg"
+  },
+  {
+    "key": "448-regular",
+    "speciesId": 448,
+    "form": "regular",
+    "nameZh": "路卡利欧",
+    "nameEn": "Lucario",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/448.glb",
+    "imagePath": "docs/previews/448-regular.jpg"
+  },
+  {
+    "key": "455-regular",
+    "speciesId": 455,
+    "form": "regular",
+    "nameZh": "尖牙笼",
+    "nameEn": "Carnivine",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/455-regular.glb",
+    "imagePath": "docs/previews/455-regular.jpg"
+  },
+  {
+    "key": "462-regular",
+    "speciesId": 462,
+    "form": "regular",
+    "nameZh": "自爆磁怪",
+    "nameEn": "Magnezone",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/462-regular.glb",
+    "imagePath": "docs/previews/462-regular.jpg"
+  },
+  {
+    "key": "468-regular",
+    "speciesId": 468,
+    "form": "regular",
+    "nameZh": "波克基斯",
+    "nameEn": "Togekiss",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/468-regular.glb",
+    "imagePath": "docs/previews/468-regular.jpg"
+  },
+  {
+    "key": "469-regular",
+    "speciesId": 469,
+    "form": "regular",
+    "nameZh": "远古巨蜓",
+    "nameEn": "Yanmega",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/469-regular.glb",
+    "imagePath": "docs/previews/469-regular.jpg"
+  },
+  {
+    "key": "472-regular",
+    "speciesId": 472,
+    "form": "regular",
+    "nameZh": "天蝎王",
+    "nameEn": "Gliscor",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/472-regular.glb",
+    "imagePath": "docs/previews/472-regular.jpg"
+  },
+  {
+    "key": "474-regular",
+    "speciesId": 474,
+    "form": "regular",
+    "nameZh": "多边兽乙型",
+    "nameEn": "Porygon-Z",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/474-regular.glb",
+    "imagePath": "docs/previews/474-regular.jpg"
+  },
+  {
+    "key": "477-regular",
+    "speciesId": 477,
+    "form": "regular",
+    "nameZh": "黑夜魔灵",
+    "nameEn": "Dusknoir",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/477-regular.glb",
+    "imagePath": "docs/previews/477-regular.jpg"
+  },
+  {
+    "key": "478-regular",
+    "speciesId": 478,
+    "form": "regular",
+    "nameZh": "雪妖女",
+    "nameEn": "Froslass",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/478-regular.glb",
+    "imagePath": "docs/previews/478-regular.jpg"
+  },
+  {
+    "key": "479-regular",
+    "speciesId": 479,
+    "form": "regular",
+    "nameZh": "洛托姆",
+    "nameEn": "Rotom",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/479-regular.glb",
+    "imagePath": "docs/previews/479-regular.jpg"
+  },
+  {
+    "key": "480-regular",
+    "speciesId": 480,
+    "form": "regular",
+    "nameZh": "由克希",
+    "nameEn": "Uxie",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/480-regular.glb",
+    "imagePath": "docs/previews/480-regular.jpg"
+  },
+  {
+    "key": "481-regular",
+    "speciesId": 481,
+    "form": "regular",
+    "nameZh": "艾姆利多",
+    "nameEn": "Mesprit",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/481-regular.glb",
+    "imagePath": "docs/previews/481-regular.jpg"
+  },
+  {
+    "key": "482-regular",
+    "speciesId": 482,
+    "form": "regular",
+    "nameZh": "亚克诺姆",
+    "nameEn": "Azelf",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/482-regular.glb",
+    "imagePath": "docs/previews/482-regular.jpg"
+  },
+  {
+    "key": "487-regular",
+    "speciesId": 487,
+    "form": "regular",
+    "nameZh": "骑拉帝纳",
+    "nameEn": "Giratina",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/487-regular.glb",
+    "imagePath": "docs/previews/487-regular.jpg"
+  },
+  {
+    "key": "488-regular",
+    "speciesId": 488,
+    "form": "regular",
+    "nameZh": "克雷色利亚",
+    "nameEn": "Cresselia",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/488-regular.glb",
+    "imagePath": "docs/previews/488-regular.jpg"
+  },
+  {
+    "key": "491-regular",
+    "speciesId": 491,
+    "form": "regular",
+    "nameZh": "达克莱伊",
+    "nameEn": "Darkrai",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/491-regular.glb",
+    "imagePath": "docs/previews/491-regular.jpg"
+  },
+  {
+    "key": "491-mega",
+    "speciesId": 491,
+    "form": "mega",
+    "nameZh": "超级达克莱伊",
+    "nameEn": "Mega Darkrai",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/491-mega.glb",
+    "imagePath": "docs/previews/491-mega.jpg"
+  },
+  {
+    "key": "493-regular",
+    "speciesId": 493,
+    "form": "regular",
+    "nameZh": "阿尔宙斯",
+    "nameEn": "Arceus",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/493-regular.glb",
+    "imagePath": "docs/previews/493-regular.jpg"
+  },
+  {
+    "key": "494-regular",
+    "speciesId": 494,
+    "form": "regular",
+    "nameZh": "比克提尼",
+    "nameEn": "Victini",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/494-regular.glb",
+    "imagePath": "docs/previews/494-regular.jpg"
+  },
+  {
+    "key": "519-regular",
+    "speciesId": 519,
+    "form": "regular",
+    "nameZh": "豆豆鸽",
+    "nameEn": "Pidove",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/519-regular.glb",
+    "imagePath": "docs/previews/519-regular.jpg"
+  },
+  {
+    "key": "520-regular",
+    "speciesId": 520,
+    "form": "regular",
+    "nameZh": "咕咕鸽",
+    "nameEn": "Tranquill",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/520-regular.glb",
+    "imagePath": "docs/previews/520-regular.jpg"
+  },
+  {
+    "key": "521-regular",
+    "speciesId": 521,
+    "form": "regular",
+    "nameZh": "高傲雉鸡",
+    "nameEn": "Unfezant",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/521-regular.glb",
+    "imagePath": "docs/previews/521-regular.jpg"
+  },
+  {
+    "key": "527-regular",
+    "speciesId": 527,
+    "form": "regular",
+    "nameZh": "滚滚蝙蝠",
+    "nameEn": "Woobat",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/527-regular.glb",
+    "imagePath": "docs/previews/527-regular.jpg"
+  },
+  {
+    "key": "528-regular",
+    "speciesId": 528,
+    "form": "regular",
+    "nameZh": "心蝙蝠",
+    "nameEn": "Swoobat",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/528-regular.glb",
+    "imagePath": "docs/previews/528-regular.jpg"
+  },
+  {
+    "key": "561-regular",
+    "speciesId": 561,
+    "form": "regular",
+    "nameZh": "象征鸟",
+    "nameEn": "Sigilyph",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/561-regular.glb",
+    "imagePath": "docs/previews/561-regular.jpg"
+  },
+  {
+    "key": "562-regular",
+    "speciesId": 562,
+    "form": "regular",
+    "nameZh": "哭哭面具",
+    "nameEn": "Yamask",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/562-regular.glb",
+    "imagePath": "docs/previews/562-regular.jpg"
+  },
+  {
+    "key": "563-regular",
+    "speciesId": 563,
+    "form": "regular",
+    "nameZh": "迭失棺",
+    "nameEn": "Cofagrigus",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/563-regular.glb",
+    "imagePath": "docs/previews/563-regular.jpg"
+  },
+  {
+    "key": "566-regular",
+    "speciesId": 566,
+    "form": "regular",
+    "nameZh": "始祖小鸟",
+    "nameEn": "Archen",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/566-regular.glb",
+    "imagePath": "docs/previews/566-regular.jpg"
+  },
+  {
+    "key": "567-regular",
+    "speciesId": 567,
+    "form": "regular",
+    "nameZh": "始祖大鸟",
+    "nameEn": "Archeops",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/567-regular.glb",
+    "imagePath": "docs/previews/567-regular.jpg"
+  },
+  {
+    "key": "571-regular",
+    "speciesId": 571,
+    "form": "regular",
+    "nameZh": "索罗亚克",
+    "nameEn": "Zoroark",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/571.glb",
+    "imagePath": "docs/previews/571-regular.jpg"
+  },
+  {
+    "key": "577-regular",
+    "speciesId": 577,
+    "form": "regular",
+    "nameZh": "单卵细胞球",
+    "nameEn": "Solosis",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/577-regular.glb",
+    "imagePath": "docs/previews/577-regular.jpg"
+  },
+  {
+    "key": "578-regular",
+    "speciesId": 578,
+    "form": "regular",
+    "nameZh": "双卵细胞球",
+    "nameEn": "Duosion",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/578-regular.glb",
+    "imagePath": "docs/previews/578-regular.jpg"
+  },
+  {
+    "key": "579-regular",
+    "speciesId": 579,
+    "form": "regular",
+    "nameZh": "人造细胞卵",
+    "nameEn": "Reuniclus",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/579-regular.glb",
+    "imagePath": "docs/previews/579-regular.jpg"
+  },
+  {
+    "key": "580-regular",
+    "speciesId": 580,
+    "form": "regular",
+    "nameZh": "鸭宝宝",
+    "nameEn": "Ducklett",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/580-regular.glb",
+    "imagePath": "docs/previews/580-regular.jpg"
+  },
+  {
+    "key": "581-regular",
+    "speciesId": 581,
+    "form": "regular",
+    "nameZh": "舞天鹅",
+    "nameEn": "Swanna",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/581-regular.glb",
+    "imagePath": "docs/previews/581-regular.jpg"
+  },
+  {
+    "key": "587-regular",
+    "speciesId": 587,
+    "form": "regular",
+    "nameZh": "电飞鼠",
+    "nameEn": "Emolga",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/587-regular.glb",
+    "imagePath": "docs/previews/587-regular.jpg"
+  },
+  {
+    "key": "599-regular",
+    "speciesId": 599,
+    "form": "regular",
+    "nameZh": "齿轮儿",
+    "nameEn": "Klink",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/599-regular.glb",
+    "imagePath": "docs/previews/599-regular.jpg"
+  },
+  {
+    "key": "600-regular",
+    "speciesId": 600,
+    "form": "regular",
+    "nameZh": "齿轮组",
+    "nameEn": "Klang",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/600-regular.glb",
+    "imagePath": "docs/previews/600-regular.jpg"
+  },
+  {
+    "key": "601-regular",
+    "speciesId": 601,
+    "form": "regular",
+    "nameZh": "齿轮怪",
+    "nameEn": "Klinklang",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/601-regular.glb",
+    "imagePath": "docs/previews/601-regular.jpg"
+  },
+  {
+    "key": "602-regular",
+    "speciesId": 602,
+    "form": "regular",
+    "nameZh": "麻麻小鱼",
+    "nameEn": "Tynamo",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/602-regular.glb",
+    "imagePath": "docs/previews/602-regular.jpg"
+  },
+  {
+    "key": "603-regular",
+    "speciesId": 603,
+    "form": "regular",
+    "nameZh": "麻麻鳗",
+    "nameEn": "Eelektrik",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/603-regular.glb",
+    "imagePath": "docs/previews/603-regular.jpg"
+  },
+  {
+    "key": "604-regular",
+    "speciesId": 604,
+    "form": "regular",
+    "nameZh": "麻麻鳗鱼王",
+    "nameEn": "Eelektross",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/604-regular.glb",
+    "imagePath": "docs/previews/604-regular.jpg"
+  },
+  {
+    "key": "605-regular",
+    "speciesId": 605,
+    "form": "regular",
+    "nameZh": "小灰怪",
+    "nameEn": "Elgyem",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/605-regular.glb",
+    "imagePath": "docs/previews/605-regular.jpg"
+  },
+  {
+    "key": "606-regular",
+    "speciesId": 606,
+    "form": "regular",
+    "nameZh": "大宇怪",
+    "nameEn": "Beheeyem",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/606-regular.glb",
+    "imagePath": "docs/previews/606-regular.jpg"
+  },
+  {
+    "key": "607-regular",
+    "speciesId": 607,
+    "form": "regular",
+    "nameZh": "烛光灵",
+    "nameEn": "Litwick",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/607-regular.glb",
+    "imagePath": "docs/previews/607-regular.jpg"
+  },
+  {
+    "key": "608-regular",
+    "speciesId": 608,
+    "form": "regular",
+    "nameZh": "灯火幽灵",
+    "nameEn": "Lampent",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/608-regular.glb",
+    "imagePath": "docs/previews/608-regular.jpg"
+  },
+  {
+    "key": "609-regular",
+    "speciesId": 609,
+    "form": "regular",
+    "nameZh": "水晶灯火灵",
+    "nameEn": "Chandelure",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/609-regular.glb",
+    "imagePath": "docs/previews/609-regular.jpg"
+  },
+  {
+    "key": "615-regular",
+    "speciesId": 615,
+    "form": "regular",
+    "nameZh": "几何雪花",
+    "nameEn": "Cryogonal",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/615-regular.glb",
+    "imagePath": "docs/previews/615-regular.jpg"
+  },
+  {
+    "key": "623-regular",
+    "speciesId": 623,
+    "form": "regular",
+    "nameZh": "泥偶巨人",
+    "nameEn": "Golurk",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/623-regular.glb",
+    "imagePath": "docs/previews/623-regular.jpg"
+  },
+  {
+    "key": "627-regular",
+    "speciesId": 627,
+    "form": "regular",
+    "nameZh": "毛头小鹰",
+    "nameEn": "Rufflet",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/627-regular.glb",
+    "imagePath": "docs/previews/627-regular.jpg"
+  },
+  {
+    "key": "628-regular",
+    "speciesId": 628,
+    "form": "regular",
+    "nameZh": "勇士雄鹰",
+    "nameEn": "Braviary",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/628-regular.glb",
+    "imagePath": "docs/previews/628-regular.jpg"
+  },
+  {
+    "key": "628-hisui",
+    "speciesId": 628,
+    "form": "hisui",
+    "nameZh": "勇士雄鹰（洗翠的样子）",
+    "nameEn": "Hisuian Braviary",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/628-hisui.glb",
+    "imagePath": "docs/previews/628-hisui.jpg"
+  },
+  {
+    "key": "629-regular",
+    "speciesId": 629,
+    "form": "regular",
+    "nameZh": "秃鹰丫头",
+    "nameEn": "Vullaby",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/629-regular.glb",
+    "imagePath": "docs/previews/629-regular.jpg"
+  },
+  {
+    "key": "630-regular",
+    "speciesId": 630,
+    "form": "regular",
+    "nameZh": "秃鹰娜",
+    "nameEn": "Mandibuzz",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/630-regular.glb",
+    "imagePath": "docs/previews/630-regular.jpg"
+  },
+  {
+    "key": "635-regular",
+    "speciesId": 635,
+    "form": "regular",
+    "nameZh": "三首恶龙",
+    "nameEn": "Hydreigon",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/635-regular.glb",
+    "imagePath": "docs/previews/635-regular.jpg"
+  },
+  {
+    "key": "637-regular",
+    "speciesId": 637,
+    "form": "regular",
+    "nameZh": "火神蛾",
+    "nameEn": "Volcarona",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/637-regular.glb",
+    "imagePath": "docs/previews/637-regular.jpg"
+  },
+  {
+    "key": "641-regular",
+    "speciesId": 641,
+    "form": "regular",
+    "nameZh": "龙卷云",
+    "nameEn": "Tornadus",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/641-regular.glb",
+    "imagePath": "docs/previews/641-regular.jpg"
+  },
+  {
+    "key": "642-regular",
+    "speciesId": 642,
+    "form": "regular",
+    "nameZh": "雷电云",
+    "nameEn": "Thundurus",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/642-regular.glb",
+    "imagePath": "docs/previews/642-regular.jpg"
+  },
+  {
+    "key": "645-regular",
+    "speciesId": 645,
+    "form": "regular",
+    "nameZh": "土地云",
+    "nameEn": "Landorus",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/645-regular.glb",
+    "imagePath": "docs/previews/645-regular.jpg"
+  },
+  {
+    "key": "655-mega",
+    "speciesId": 655,
+    "form": "mega",
+    "nameZh": "超级妖火红狐",
+    "nameEn": "Mega Delphox",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/655-mega.glb",
+    "imagePath": "docs/previews/655-mega.jpg"
+  },
+  {
+    "key": "658-regular",
+    "speciesId": 658,
+    "form": "regular",
+    "nameZh": "甲贺忍蛙",
+    "nameEn": "Greninja",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/658.glb",
+    "imagePath": "docs/previews/658-regular.jpg"
+  },
+  {
+    "key": "658-mega",
+    "speciesId": 658,
+    "form": "mega",
+    "nameZh": "超级甲贺忍蛙",
+    "nameEn": "Mega Greninja",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/658-mega.glb",
+    "imagePath": "docs/previews/658-mega.jpg"
+  },
+  {
+    "key": "661-regular",
+    "speciesId": 661,
+    "form": "regular",
+    "nameZh": "小箭雀",
+    "nameEn": "Fletchling",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/661-regular.glb",
+    "imagePath": "docs/previews/661-regular.jpg"
+  },
+  {
+    "key": "662-regular",
+    "speciesId": 662,
+    "form": "regular",
+    "nameZh": "火箭雀",
+    "nameEn": "Fletchinder",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/662-regular.glb",
+    "imagePath": "docs/previews/662-regular.jpg"
+  },
+  {
+    "key": "663-regular",
+    "speciesId": 663,
+    "form": "regular",
+    "nameZh": "烈箭鹰",
+    "nameEn": "Talonflame",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/663-regular.glb",
+    "imagePath": "docs/previews/663-regular.jpg"
+  },
+  {
+    "key": "666-regular",
+    "speciesId": 666,
+    "form": "regular",
+    "nameZh": "彩粉蝶",
+    "nameEn": "Vivillon",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/666-regular.glb",
+    "imagePath": "docs/previews/666-regular.jpg"
+  },
+  {
+    "key": "679-regular",
+    "speciesId": 679,
+    "form": "regular",
+    "nameZh": "独剑鞘",
+    "nameEn": "Honedge",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/679-regular.glb",
+    "imagePath": "docs/previews/679-regular.jpg"
+  },
+  {
+    "key": "680-regular",
+    "speciesId": 680,
+    "form": "regular",
+    "nameZh": "双剑鞘",
+    "nameEn": "Doublade",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/680-regular.glb",
+    "imagePath": "docs/previews/680-regular.jpg"
+  },
+  {
+    "key": "681-regular",
+    "speciesId": 681,
+    "form": "regular",
+    "nameZh": "坚盾剑怪",
+    "nameEn": "Aegislash",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/681-regular.glb",
+    "imagePath": "docs/previews/681-regular.jpg"
+  },
+  {
+    "key": "687-mega",
+    "speciesId": 687,
+    "form": "mega",
+    "nameZh": "超级乌贼王",
+    "nameEn": "Mega Malamar",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/687-mega.glb",
+    "imagePath": "docs/previews/687-mega.jpg"
+  },
+  {
+    "key": "700-regular",
+    "speciesId": 700,
+    "form": "regular",
+    "nameZh": "仙子伊布",
+    "nameEn": "Sylveon",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/700.glb",
+    "imagePath": "docs/previews/700-regular.jpg"
+  },
+  {
+    "key": "701-regular",
+    "speciesId": 701,
+    "form": "regular",
+    "nameZh": "摔角鹰人",
+    "nameEn": "Hawlucha",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/701-regular.glb",
+    "imagePath": "docs/previews/701-regular.jpg"
+  },
+  {
+    "key": "707-regular",
+    "speciesId": 707,
+    "form": "regular",
+    "nameZh": "钥圈儿",
+    "nameEn": "Klefki",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/707-regular.glb",
+    "imagePath": "docs/previews/707-regular.jpg"
+  },
+  {
+    "key": "714-regular",
+    "speciesId": 714,
+    "form": "regular",
+    "nameZh": "嗡蝠",
+    "nameEn": "Noibat",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/714-regular.glb",
+    "imagePath": "docs/previews/714-regular.jpg"
+  },
+  {
+    "key": "715-regular",
+    "speciesId": 715,
+    "form": "regular",
+    "nameZh": "音波龙",
+    "nameEn": "Noivern",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/715-regular.glb",
+    "imagePath": "docs/previews/715-regular.jpg"
+  },
+  {
+    "key": "717-regular",
+    "speciesId": 717,
+    "form": "regular",
+    "nameZh": "伊裴尔塔尔",
+    "nameEn": "Yveltal",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/717-regular.glb",
+    "imagePath": "docs/previews/717-regular.jpg"
+  },
+  {
+    "key": "718-regular",
+    "speciesId": 718,
+    "form": "regular",
+    "nameZh": "基格尔德",
+    "nameEn": "Zygarde",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/718.glb",
+    "imagePath": "docs/previews/718-regular.jpg"
+  },
+  {
+    "key": "718-mega",
+    "speciesId": 718,
+    "form": "mega",
+    "nameZh": "超级基格尔德",
+    "nameEn": "Mega Zygarde",
+    "kind": "glb",
+    "sourcePath": "assets/garden/models/718-mega.glb",
+    "imagePath": "docs/previews/718-mega.jpg"
+  },
+  {
+    "key": "720-regular",
+    "speciesId": 720,
+    "form": "regular",
+    "nameZh": "胡帕",
+    "nameEn": "Hoopa",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/720-regular.glb",
+    "imagePath": "docs/previews/720-regular.jpg"
+  },
+  {
+    "key": "720-mega",
+    "speciesId": 720,
+    "form": "mega",
+    "nameZh": "胡帕（上游标记 mega）",
+    "nameEn": "Hoopa (upstream: mega)",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/720-mega.glb",
+    "imagePath": "docs/previews/720-mega.jpg"
+  },
+  {
+    "key": "722-regular",
+    "speciesId": 722,
+    "form": "regular",
+    "nameZh": "木木枭",
+    "nameEn": "Rowlet",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/722-regular.glb",
+    "imagePath": "docs/previews/722-regular.jpg"
+  },
+  {
+    "key": "723-regular",
+    "speciesId": 723,
+    "form": "regular",
+    "nameZh": "投羽枭",
+    "nameEn": "Dartrix",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/723-regular.glb",
+    "imagePath": "docs/previews/723-regular.jpg"
+  },
+  {
+    "key": "731-regular",
+    "speciesId": 731,
+    "form": "regular",
+    "nameZh": "小笃儿",
+    "nameEn": "Pikipek",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/731-regular.glb",
+    "imagePath": "docs/previews/731-regular.jpg"
+  },
+  {
+    "key": "732-regular",
+    "speciesId": 732,
+    "form": "regular",
+    "nameZh": "喇叭啄鸟",
+    "nameEn": "Trumbeak",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/732-regular.glb",
+    "imagePath": "docs/previews/732-regular.jpg"
+  },
+  {
+    "key": "733-regular",
+    "speciesId": 733,
+    "form": "regular",
+    "nameZh": "铳嘴大鸟",
+    "nameEn": "Toucannon",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/733-regular.glb",
+    "imagePath": "docs/previews/733-regular.jpg"
+  },
+  {
+    "key": "738-regular",
+    "speciesId": 738,
+    "form": "regular",
+    "nameZh": "锹农炮虫",
+    "nameEn": "Vikavolt",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/738-regular.glb",
+    "imagePath": "docs/previews/738-regular.jpg"
+  },
+  {
+    "key": "741-regular",
+    "speciesId": 741,
+    "form": "regular",
+    "nameZh": "花舞鸟",
+    "nameEn": "Oricorio",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/741-regular.glb",
+    "imagePath": "docs/previews/741-regular.jpg"
+  },
+  {
+    "key": "743-regular",
+    "speciesId": 743,
+    "form": "regular",
+    "nameZh": "蝶结萌虻",
+    "nameEn": "Ribombee",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/743-regular.glb",
+    "imagePath": "docs/previews/743-regular.jpg"
+  },
+  {
+    "key": "774-regular",
+    "speciesId": 774,
+    "form": "regular",
+    "nameZh": "小陨星",
+    "nameEn": "Minior",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/774-regular.glb",
+    "imagePath": "docs/previews/774-regular.jpg"
+  },
+  {
+    "key": "786-regular",
+    "speciesId": 786,
+    "form": "regular",
+    "nameZh": "卡璞・蝶蝶",
+    "nameEn": "Tapu Lele",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/786-regular.glb",
+    "imagePath": "docs/previews/786-regular.jpg"
+  },
+  {
+    "key": "789-regular",
+    "speciesId": 789,
+    "form": "regular",
+    "nameZh": "科斯莫古",
+    "nameEn": "Cosmog",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/789-regular.glb",
+    "imagePath": "docs/previews/789-regular.jpg"
+  },
+  {
+    "key": "790-regular",
+    "speciesId": 790,
+    "form": "regular",
+    "nameZh": "科斯莫姆",
+    "nameEn": "Cosmoem",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/790-regular.glb",
+    "imagePath": "docs/previews/790-regular.jpg"
+  },
+  {
+    "key": "797-regular",
+    "speciesId": 797,
+    "form": "regular",
+    "nameZh": "铁火辉夜",
+    "nameEn": "Celesteela",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/797-regular.glb",
+    "imagePath": "docs/previews/797-regular.jpg"
+  },
+  {
+    "key": "821-regular",
+    "speciesId": 821,
+    "form": "regular",
+    "nameZh": "稚山雀",
+    "nameEn": "Rookidee",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/821-regular.glb",
+    "imagePath": "docs/previews/821-regular.jpg"
+  },
+  {
+    "key": "822-regular",
+    "speciesId": 822,
+    "form": "regular",
+    "nameZh": "蓝鸦",
+    "nameEn": "Corvisquire",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/822-regular.glb",
+    "imagePath": "docs/previews/822-regular.jpg"
+  },
+  {
+    "key": "823-regular",
+    "speciesId": 823,
+    "form": "regular",
+    "nameZh": "钢铠鸦",
+    "nameEn": "Corviknight",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/823-regular.glb",
+    "imagePath": "docs/previews/823-regular.jpg"
+  },
+  {
+    "key": "845-regular",
+    "speciesId": 845,
+    "form": "regular",
+    "nameZh": "古月鸟",
+    "nameEn": "Cramorant",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/845-regular.glb",
+    "imagePath": "docs/previews/845-regular.jpg"
+  },
+  {
+    "key": "905-regular",
+    "speciesId": 905,
+    "form": "regular",
+    "nameZh": "眷恋云",
+    "nameEn": "Enamorus",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/905-regular.glb",
+    "imagePath": "docs/previews/905-regular.jpg"
+  },
+  {
+    "key": "941-regular",
+    "speciesId": 941,
+    "form": "regular",
+    "nameZh": "大电海燕",
+    "nameEn": "Kilowattrel",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/941-regular.glb",
+    "imagePath": "docs/previews/941-regular.jpg"
+  },
+  {
+    "key": "962-regular",
+    "speciesId": 962,
+    "form": "regular",
+    "nameZh": "下石鸟",
+    "nameEn": "Bombirdier",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/962-regular.glb",
+    "imagePath": "docs/previews/962-regular.jpg"
+  },
+  {
+    "key": "973-regular",
+    "speciesId": 973,
+    "form": "regular",
+    "nameZh": "纏红鹤",
+    "nameEn": "Flamigo",
+    "kind": "glb",
+    "sourcePath": "models/supplemental/973-regular.glb",
+    "imagePath": "docs/previews/973-regular.jpg"
+  },
+  {
+    "key": "36-mega-procedural",
+    "speciesId": 36,
+    "form": "mega",
+    "nameZh": "超级皮可西",
+    "nameEn": "Mega Clefable",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/36-mega-procedural.jpg"
+  },
+  {
+    "key": "149-mega-procedural",
+    "speciesId": 149,
+    "form": "mega",
+    "nameZh": "超级快龙",
+    "nameEn": "Mega Dragonite",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/149-mega-procedural.jpg"
+  },
+  {
+    "key": "478-mega-procedural",
+    "speciesId": 478,
+    "form": "mega",
+    "nameZh": "超级雪妖女",
+    "nameEn": "Mega Froslass",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/478-mega-procedural.jpg"
+  },
+  {
+    "key": "560-mega-procedural",
+    "speciesId": 560,
+    "form": "mega",
+    "nameZh": "超级头巾混混",
+    "nameEn": "Mega Scrafty",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/560-mega-procedural.jpg"
+  },
+  {
+    "key": "609-mega-procedural",
+    "speciesId": 609,
+    "form": "mega",
+    "nameZh": "超级水晶灯火灵",
+    "nameEn": "Mega Chandelure",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/609-mega-procedural.jpg"
+  },
+  {
+    "key": "623-mega-procedural",
+    "speciesId": 623,
+    "form": "mega",
+    "nameZh": "超级泥偶巨人",
+    "nameEn": "Mega Golurk",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/623-mega-procedural.jpg"
+  },
+  {
+    "key": "668-mega-procedural",
+    "speciesId": 668,
+    "form": "mega",
+    "nameZh": "超级火炎狮",
+    "nameEn": "Mega Pyroar",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/668-mega-procedural.jpg"
+  },
+  {
+    "key": "691-mega-procedural",
+    "speciesId": 691,
+    "form": "mega",
+    "nameZh": "超级毒藻龙",
+    "nameEn": "Mega Dragalge",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/691-mega-procedural.jpg"
+  },
+  {
+    "key": "701-mega-procedural",
+    "speciesId": 701,
+    "form": "mega",
+    "nameZh": "超级摔角鹰人",
+    "nameEn": "Mega Hawlucha",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/701-mega-procedural.jpg"
+  },
+  {
+    "key": "768-mega-procedural",
+    "speciesId": 768,
+    "form": "mega",
+    "nameZh": "超级具甲武者",
+    "nameEn": "Mega Golisopod",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/768-mega-procedural.jpg"
+  },
+  {
+    "key": "850-procedural",
+    "speciesId": 850,
+    "form": "regular",
+    "nameZh": "烧火蚣",
+    "nameEn": "Sizzlipede",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/850-procedural.jpg"
+  },
+  {
+    "key": "851-procedural",
+    "speciesId": 851,
+    "form": "regular",
+    "nameZh": "焚焰蚣",
+    "nameEn": "Centiskorch",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/851-procedural.jpg"
+  },
+  {
+    "key": "861-procedural",
+    "speciesId": 861,
+    "form": "regular",
+    "nameZh": "长毛巨魔",
+    "nameEn": "Grimmsnarl",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/861-procedural.jpg"
+  },
+  {
+    "key": "868-procedural",
+    "speciesId": 868,
+    "form": "regular",
+    "nameZh": "小仙奶",
+    "nameEn": "Milcery",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/868-procedural.jpg"
+  },
+  {
+    "key": "873-procedural",
+    "speciesId": 873,
+    "form": "regular",
+    "nameZh": "雪绒蛾",
+    "nameEn": "Frosmoth",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/873-procedural.jpg"
+  },
+  {
+    "key": "918-procedural",
+    "speciesId": 918,
+    "form": "regular",
+    "nameZh": "操陷蛛",
+    "nameEn": "Spidops",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/918-procedural.jpg"
+  },
+  {
+    "key": "919-procedural",
+    "speciesId": 919,
+    "form": "regular",
+    "nameZh": "豆蟋蟀",
+    "nameEn": "Nymble",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/919-procedural.jpg"
+  },
+  {
+    "key": "935-procedural",
+    "speciesId": 935,
+    "form": "regular",
+    "nameZh": "炭小侍",
+    "nameEn": "Charcadet",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/935-procedural.jpg"
+  },
+  {
+    "key": "936-procedural",
+    "speciesId": 936,
+    "form": "regular",
+    "nameZh": "红莲铠骑",
+    "nameEn": "Armarouge",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/936-procedural.jpg"
+  },
+  {
+    "key": "938-procedural",
+    "speciesId": 938,
+    "form": "regular",
+    "nameZh": "光蚪仔",
+    "nameEn": "Tadbulb",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/938-procedural.jpg"
+  },
+  {
+    "key": "939-procedural",
+    "speciesId": 939,
+    "form": "regular",
+    "nameZh": "电肚蛙",
+    "nameEn": "Bellibolt",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/939-procedural.jpg"
+  },
+  {
+    "key": "940-procedural",
+    "speciesId": 940,
+    "form": "regular",
+    "nameZh": "电海燕",
+    "nameEn": "Wattrel",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/940-procedural.jpg"
+  },
+  {
+    "key": "944-procedural",
+    "speciesId": 944,
+    "form": "regular",
+    "nameZh": "滋汁鼹",
+    "nameEn": "Shroodle",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/944-procedural.jpg"
+  },
+  {
+    "key": "963-procedural",
+    "speciesId": 963,
+    "form": "regular",
+    "nameZh": "波普海豚",
+    "nameEn": "Finizen",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/963-procedural.jpg"
+  },
+  {
+    "key": "964-procedural",
+    "speciesId": 964,
+    "form": "regular",
+    "nameZh": "海豚侠",
+    "nameEn": "Palafin",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/964-procedural.jpg"
+  },
+  {
+    "key": "971-procedural",
+    "speciesId": 971,
+    "form": "regular",
+    "nameZh": "墓仔狗",
+    "nameEn": "Greavard",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/971-procedural.jpg"
+  },
+  {
+    "key": "972-procedural",
+    "speciesId": 972,
+    "form": "regular",
+    "nameZh": "墓扬犬",
+    "nameEn": "Houndstone",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/972-procedural.jpg"
+  },
+  {
+    "key": "978-mega-procedural",
+    "speciesId": 978,
+    "form": "mega",
+    "nameZh": "超级米立龙",
+    "nameEn": "Mega Tatsugiri",
+    "kind": "procedural",
+    "sourcePath": "garden-mega-models.js",
+    "imagePath": "docs/previews/978-mega-procedural.jpg"
+  },
+  {
+    "key": "1012-procedural",
+    "speciesId": 1012,
+    "form": "regular",
+    "nameZh": "斯魔茶",
+    "nameEn": "Poltchageist",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/1012-procedural.jpg"
+  },
+  {
+    "key": "1013-procedural",
+    "speciesId": 1013,
+    "form": "regular",
+    "nameZh": "来悲粗茶",
+    "nameEn": "Sinistcha",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/1013-procedural.jpg"
+  },
+  {
+    "key": "1024-procedural",
+    "speciesId": 1024,
+    "form": "regular",
+    "nameZh": "太乐巴戈斯",
+    "nameEn": "Terapagos",
+    "kind": "procedural",
+    "sourcePath": "garden-models.js",
+    "imagePath": "docs/previews/1024-procedural.jpg"
+  }
+]

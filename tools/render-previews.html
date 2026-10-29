@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pokémon model preview renderer</title>
+<style>
+html,body { margin:0; width:100%; height:100%; overflow:hidden; background:#e9eef0; }
+canvas { display:block; width:400px; height:300px; }
+#status { position:fixed; left:0; top:310px; font:14px monospace; }
+</style>
+<canvas id="preview" width="400" height="300"></canvas><output id="status">Loading</output>
+<script type="module">
+import * as THREE from '../vendor/three.module.min.js';
+import {GLTFLoader} from '../vendor/three-addons/loaders/GLTFLoader.js';
+import {DRACOLoader} from '../vendor/three-addons/loaders/DRACOLoader.js';
+import {createStylizedModel} from '../garden-models.js';
+import {createMegaModel} from '../garden-mega-models.js';
+import {prepareRig} from '../garden-motion.js';
+import {hideBattleAttachments, relaxStandingPose} from '../garden-pose.js';
+
+const status=document.querySelector('#status');
+try {
+  const key=new URLSearchParams(location.search).get('model');
+  const catalog=await fetch('../docs/preview-catalog.json').then(response=>response.json());
+  const entry=catalog.find(entry=>entry.key===key);
+  if(!entry) throw Error('Unknown model: '+key);
+  const renderer=new THREE.WebGLRenderer({canvas:document.querySelector('canvas'),antialias:true,preserveDrawingBuffer:true});
+  renderer.setPixelRatio(1); renderer.setSize(400,300,false);
+  renderer.outputColorSpace=THREE.SRGBColorSpace;
+  renderer.toneMapping=THREE.NeutralToneMapping; renderer.toneMappingExposure=1;
+  renderer.shadowMap.enabled=true; renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+  const scene=new THREE.Scene(); scene.background=new THREE.Color('#e9eef0');
+  scene.add(new THREE.HemisphereLight('#ffffff','#a5b2ba',2.6));
+  const keyLight=new THREE.DirectionalLight('#fff8ed',3.4);keyLight.position.set(-3,6,5);
+  keyLight.castShadow=true;keyLight.shadow.mapSize.set(1024,1024);
+  keyLight.shadow.camera.left=-4;keyLight.shadow.camera.right=4;
+  keyLight.shadow.camera.top=5;keyLight.shadow.camera.bottom=-4;
+  keyLight.shadow.normalBias=.025; keyLight.shadow.bias=-.00005;
+  scene.add(keyLight);const fill=new THREE.DirectionalLight('#dceaff',1.1);fill.position.set(4,3,-3);scene.add(fill);
+  let gltf;
+  if(entry.kind==='procedural') gltf=entry.form==='mega' ? createMegaModel({id:entry.speciesId,form:'mega'}) : createStylizedModel(entry.speciesId);
+  else {
+    const draco=new DRACOLoader().setDecoderPath('../vendor/three-addons/libs/draco/');
+    draco.setWorkerLimit(1);
+    gltf=await new GLTFLoader().setDRACOLoader(draco).loadAsync('../'+entry.sourcePath);
+    draco.dispose();
+  }
+  const model=gltf.scene;
+  const species={id:entry.speciesId,form:entry.form};
+  hideBattleAttachments(model,species);relaxStandingPose(model,species);prepareRig(model,species);
+  const idle=gltf.animations?.find(clip=>/idle|wait|stand|dancing/i.test(clip.name)&&!/attack|battle/i.test(clip.name));
+  if(idle) {const mixer=new THREE.AnimationMixer(model);mixer.clipAction(idle).play();mixer.setTime(Math.min(.25,idle.duration*.1));}
+  const visibleBounds=object=>{
+    const result=new THREE.Box3();
+    object.traverseVisible(child=>{if(child.isMesh)result.union(new THREE.Box3().setFromObject(child,true));});
+    return result;
+  };
+  model.updateMatrixWorld(true);
+  let bounds=visibleBounds(model);
+  const size=bounds.getSize(new THREE.Vector3());
+  const scale=2.6/Math.max(size.x,size.y,size.z);
+  if(!Number.isFinite(scale)||scale<=0) throw Error('Invalid bounds for '+key);
+  model.scale.multiplyScalar(scale);model.updateMatrixWorld(true);
+  bounds=visibleBounds(model);
+  const center=bounds.getCenter(new THREE.Vector3());
+  model.position.add(new THREE.Vector3(-center.x,-bounds.min.y,-center.z));
+  model.traverse(object=>{if(object.isMesh){object.castShadow=true;object.receiveShadow=true;}});
+  scene.add(model);model.updateMatrixWorld(true);
+  bounds=visibleBounds(model);
+  const ground=new THREE.Mesh(new THREE.PlaneGeometry(200,200),new THREE.MeshStandardMaterial({color:'#e1e8e9',roughness:1}));
+  ground.rotation.x=-Math.PI/2;ground.position.y=-.012;ground.receiveShadow=true;scene.add(ground);
+  const target=bounds.getCenter(new THREE.Vector3());
+  const camera=new THREE.OrthographicCamera(-2,2,1.5,-1.5,.01,100);
+  camera.position.copy(target).add(new THREE.Vector3(4,2.4,6).normalize().multiplyScalar(9));camera.lookAt(target);camera.updateMatrixWorld(true);
+  const viewBounds=new THREE.Box3();
+  for(const x of [bounds.min.x,bounds.max.x]) for(const y of [bounds.min.y,bounds.max.y]) for(const z of [bounds.min.z,bounds.max.z]) viewBounds.expandByPoint(new THREE.Vector3(x,y,z).applyMatrix4(camera.matrixWorldInverse));
+  const half=Math.max((viewBounds.max.x-viewBounds.min.x)/2/(4/3),(viewBounds.max.y-viewBounds.min.y)/2)*1.2;
+  camera.left=-half*4/3;camera.right=half*4/3;camera.top=half;camera.bottom=-half;camera.updateProjectionMatrix();
+  await renderer.compileAsync(scene,camera);renderer.render(scene,camera);
+  await new Promise(resolve=>requestAnimationFrame(resolve));renderer.render(scene,camera);
+  status.textContent='Ready: '+key;
+} catch(error) {status.textContent='Error: '+error.message;console.error(error);}
+</script>
+</html>
